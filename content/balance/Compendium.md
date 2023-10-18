@@ -220,6 +220,8 @@ Inside of {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} your fillers will
 {{< spell 202425 "Warrior of Elune" >}} is an off-gcd ability, making your next 3 {{< spell 194153 "Starfires" >}} instant for 25 seconds. The ability has a 45s cooldown that starts once you've pressed it. 
 
 <br>Use the charges to enter Solar Eclipse or as a movement GCD in {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}}/Lunar Eclipse.
+
+<br> You can preferably press it when Solar Eclipse has less than 7 seconds left, this will allow you to use all charges for two eclipses before it expires and have it up again in time for exiting the next eclipse.
  
  <div id="mushroom">
 
@@ -227,9 +229,27 @@ Inside of {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} your fillers will
  
 </div>
 
-{{< spell 88747 "Wild Mushroom" >}} deals damage in an explosion and then applies a DOT  called {{< spell 392999 "Fungal Growth" >}}(if talented). This DOT lasts for 8 seconds and deals 70% of the explosions damage over the course of its duration. {{< spell 88747 "Wild Mushroom" >}} has 3 charges, so if all 3 charges are used in quick succession and each apply a dot dealing 1000 damage, the total damage dealt by the DOT would be 3000 (1000 damage x 3 charges), and the duration of the DOT would be refreshed to 8 seconds.
+{{< spell 88747 "Wild Mushroom" >}}
 
-This type of DOT is often called "Ignite" based on a Mage spell working this exact way. You don't lose/gain any Fungal Growth damage by staggering them or pressing them all at once.
+Basics:
+
+The spell has 3 charges.
+Each charge applies a Damage Over Time (DOT).
+How the damage accumulates:
+If you use all 3 charges in quick succession:
+
+Total immediate DOT damage = 3 charges * x damage = 3x damage.
+The DOT duration gets refreshed to a full 10 seconds every time a new charge is used.
+Dynamic Damage Multiplier (No Snapshotting):
+Previously, the DOT snapshotted any damage multipliers. This means, once the DOT was applied, any damage multipliers you had at that moment would persist for the entire DOT duration, even if you lost or gained buffs.
+
+Now, this mechanic has changed. The DOT dynamically adjusts to buffs you gain or lose while it is active. If the DOT is refreshed with a new application, it merges the damage.
+
+Example:
+
+Your initial DOT ticks for 'x' damage.
+If refreshed, the new DOT will tick for an adjusted damage. This adjusted damage = y + (x * remaining ticks/5).
+Note: 'y' is the damage the new DOT would deal without considering the remaining damage from the previous DOT. The total number of ticks in the 10-second DOT duration is 5.
 
 On single target, it's best to use all 3 charges at once paired with any available buffs such as potion, trinkets and Inc. {{< spell 88747 "Wild Mushroom" >}} is also an instant GCD, so it can be used for movement as needed.
 
