@@ -101,11 +101,11 @@ Feedback post for 10.1.5 and 10.2 changes: https://us.forums.blizzard.com/en/wow
 </div>
 
 **Precasting:**
+You can precast from max range about 4 seconds before a boss is pulled.
+
 - Cast {{< spell 190984 "Wrath" >}} twice
 - Cast {{< spell 202347 "Stellar Flare" >}}
 - Cast {{< spell 194153 "Starfire" >}} if {{< spell 202347 "Stellar Flare" >}} is not talented. If you have to stand close enough so that Starfire will finish casting long after the boss is pulled, cast another {{< spell 190984 "Wrath" >}} instead.
-
-You can precast from max range about 4 seconds before a boss is pulled.
 
 **What is a priority list?**
 
@@ -119,29 +119,30 @@ When reading the priority lists below, you should not think about these as steps
 
 **Single Target priority list:**
 - Keep up {{< spell 8921 "Moonfire" >}}, {{< spell 93402 "Sunfire" >}} and {{< spell 202347 "Stellar Flare" >}} and refresh within pandemic (30% of base duration) inside Eclipse and if they would expire otherwise outside Eclipse.
-- Use {{< spell 190984 "Wrath" >}} to enter Lunar Eclipse if one of the following conditions are met:
-    - You have 520 Astral Power or more towards {{< spell 393961 "Pulsar" >}}.
-    - The cooldown of {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} has less than 5 seconds remaining.
-- Use {{< spell 202425 "Warrior of Elune" >}} if your eclipse is about to end and you will enter Solar Eclipse next.
-- Use {{< spell 194153 "Starfire" >}} to enter Solar Eclipse.
-- Use {{< spell 191034 "Starfall" >}} if you have 550 Astral Power or more towards {{< spell 393961 "Primordial Arcanic Pulsar" >}}, you have a {{< spell 393942 "Starweaver's Warp" >}} proc and you are not in {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} already.
+- Use {{< spell 194153 "Starfire" >}} if you're in Lunar Eclipse, {{< spell 424248 "Dreamstate" >}} is up and you're about to enter {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}}.
+- Use {{< spell 190984 "Wrath" >}} if you're in Solar Eclipse, {{< spell 424248 "Dreamstate" >}} is up and you're about to enter {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}}.
 - Use {{< spell 194223 "Celestial Alignment" >}} or {{< spell 102560 "Incarnation" >}} if you are not in {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} already.
 - Use {{< spell 391528 "Convoke the Spirits" >}} when below 40 AP if you are inside {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}}, or if your next <br>{{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} window is 30 or more seconds away and your Eclipse will last for more than 4 seconds.
+- Use {{< spell 190984 "Wrath" >}} to enter Lunar Eclipse if you have 520 or more stacks of {{< spell 393961 "Pulsar" >}} and the cooldown of {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}} is more than 5 seconds and you do not have T31 2P equipped.
+- Use {{< spell 202425 "Warrior of Elune" >}} if your eclipse has less than 7 seconds left and you will enter Solar Eclipse next.
+- Use {{< spell 194153 "Starfire" >}} to enter Solar Eclipse.
 - Use {{< spell 400636 "Astral Communion" >}} if you will not overcap on AP.
 - Use {{< spell 205636 "Force of Nature" >}} if you will not overcap on AP.
 - Use {{< spell 211545 "Fury of Elune" >}} if you are in {{< spell 194223 "CA" >}}/{{< spell 102560 "Inc" >}}, will proc {{< spell 393961 "Primordial Arcanic Pulsar" >}} with your next GCD or are at less than 280 {{< spell 393961 "Primordial Arcanic Pulsar" >}} stacks.
+- Use {{< spell 88747 "Wild Mushroom" >}} if {{< spell 393956 "Waning Twilight" >}} is not up.
+- Use your macro to cancel Starlord as referenced [here](#cancel) if conditions apply.
 - Use {{< spell 191034 "Starfall" >}} if you have a {{< spell 393942 "Starweaver's Warp" >}} proc.
-- Use {{< spell 78674 "Starsurge" >}} if {{< spell 202345 "Starlord" >}} has less than 3 stacks and if talented you can optimally refresh the {{< spell 393954 "Rattle the Stars" >}} buff.
+- Use {{< spell 78674 "Starsurge" >}} if {{< spell 202345 "Starlord" >}} has less than 3 stacks or if you have more than 2 stacks of {{< spell 394048 "BoAT" >}}
 - Use {{< spell 274281 "New -" >}}{{< spell 202768 "Half-" >}} and {{< spell 202771 "Full Moon" >}} if all of the following conditions is met:
   - You will not overcap on AP.
   - You can finish the cast before your current eclipse ends.
   - You are in CA/Inc or you're about to cap on charges and Pulsar has 520 or fewer stacks and the cooldown of CA/Inc is longer than 10 seconds. 
-- Use your macro to cancel Starlord as referenced [here](#cancel). This is not necessary if you do not want to use a cancelaura macro, but does represent a minor gain.
+- Use your macro to cancel Starlord as referenced [here](#cancel) if conditions apply.
 - Use {{< spell 78674 "Starsurge" >}} if one of the following conditions is met: 
     - You would overcap AP with the next cast.
     - You have a {{< spell 393944 "Starweaver's Weft" >}} proc.
     - Solar or Lunar Eclipse will end in the next 4 seconds and you have above 70 AP.
-- Use {{< spell 88747 "Wild Mushroom" >}} on cooldown.
+- Use {{< spell 88747 "Wild Mushroom" >}} as a movement GCD.
 - Use {{< spell 190984 "Wrath" >}} regardless of which Eclipse you are in.
 
 <div id="aoe">
